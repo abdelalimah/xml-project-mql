@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/students.xsl"?>
+
+<branches>
+    <branch id="BIO1">
+        <semestres>
+            <semestre id="S1">
+                <students>
+                    <student id="10">
+                        <name>Mahboub</name>
+                        <nickname>Abdelali</nickname>
+                        <age>20</age>
+                    </student>
+                    <student id="11">
+                        <name>Khouya</name>
+                        <nickname>Adam</nickname>
+                        <age>20</age>
+                    </student>
+                </students>
+            </semestre>
+        </semestres>
+    </branch>
+</branches>

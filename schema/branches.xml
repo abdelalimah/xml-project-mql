@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<branches>
+    <branch>
+        <name>SMI</name>
+       
+         <semestres>
+<semestre>
+
+		 <name>S1</name>
+		 <etudiants>
+      <etudiant cin="DO11" cne="M13">
+	  <nom>Berraho</nom>
+	  <prenom>Hamza</prenom>
+
+	  <age>21</age>
+	  
+	  </etudiant>
+
+<etudiant cin="DO22" cne="M14">
+	  <nom>Bahij</nom>
+	  <prenom>Soumaya</prenom>
+
+	  <age>20</age>
+		 </etudiant>
+
+		 <etudiant cin="DO33" cne="M15">
+	  <nom>Mahboub</nom>
+	  <prenom>Abdelali</prenom>
+
+	  <age></age>
+	  </etudiant>
+
+	  <etudiant cin="DO44" cne="M16">
+	  <nom>Hatoch</nom>
+	  <prenom>Hamza</prenom>
+
+	  <age>22</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S2</name>
+		  <etudiants>
+      <etudiant cin="DO55" cne="M17">
+	  <nom>Eljabiry</nom>
+	  <prenom>Ihssan</prenom>
+
+	  <age>20</age>
+	  
+	  </etudiant>
+<etudiant cin="DO66" cne="M117">
+	  <nom>Barrouj</nom>
+	  <prenom>Ayah</prenom>
+
+	  <age>23</age>
+		 </etudiant>
+		 <etudiant cin="DO77" cne="M18">
+	  <nom>Boudouaya</nom>
+	  <prenom>Oumaima</prenom>
+
+	  <age>21</age>
+	  </etudiant>
+	  <etudiant cin="DO88" cne="M19">
+	  <nom>Chahboune</nom>
+	  <prenom>Khalid</prenom>
+
+	  <age>23</age>
+	  </etudiant>
+	  </etudiants>
+
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S3</name>
+		  <etudiants>
+      <etudiant cin="DO99" cne="M20">
+	  <nom>Elmalawi</nom>
+	  <prenom>Amina</prenom>
+
+	  <age>22</age>
+	  
+	  </etudiant>
+<etudiant cin="DO01" cne="M21">
+	  <nom>Bahij</nom>
+	  <prenom>Ahlam</prenom>
+
+	  <age>23</age>
+		 </etudiant>
+		 <etudiant cin="DO02" cne="M22">
+	  <nom>Zih</nom>
+	  <prenom>Kaoutar</prenom>
+
+	  <age>24</age>
+	  </etudiant>
+	  <etudiant cin="DO03" cne="M23">
+	  <nom>Kadderi</nom>
+	  <prenom>Nasser</prenom>
+
+	  <age>27</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S4</name>
+		  <etudiants>
+      <etudiant cin="DO04" cne="M24">
+	  <nom>Jorio</nom>
+	  <prenom>Mohamed</prenom>
+
+	  <age>25</age>
+	  
+	  </etudiant>
+<etudiant cin="DO05" cne="M25">
+	  <nom>Bekkari</nom>
+	  <prenom>Hisham</prenom>
+
+	  <age>22</age>
+		 </etudiant>
+		 <etudiant cin="DO06" cne="M26">
+	  <nom>Bahlouli</nom>
+	  <prenom>Soufian</prenom>
+
+	  <age>23</age>
+	  </etudiant>
+	  <etudiant cin="DO07" cne="M27">
+	  <nom>Hamoutahar</nom>
+	  <prenom>Meryem</prenom>
+
+	  <age>22</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+
+<semestre>
+
+		 <name>S5</name>
+		  <etudiants>
+      <etudiant cin="DO08" cne="M28">
+	  <nom>Bennani</nom>
+	  <prenom>Nada</prenom>
+
+	  <age>21</age>
+	  
+	  </etudiant>
+<etudiant cin="DO09" cne="M29">
+	  <nom>Azimani</nom>
+	  <prenom>Mohamed</prenom>
+
+	  <age>22</age>
+		 </etudiant>
+		 <etudiant cin="CO11" cne="M201">
+	  <nom>Khannous</nom>
+	  <prenom>Zineb</prenom>
+
+	  <age>24</age>
+	  </etudiant>
+	  <etudiant cin="CO12" cne="M202">
+	  <nom>EL brahimi</nom>
+	  <prenom>Oumayma</prenom>
+
+	  <age>24</age>
+	  </etudiant>
+
+	  </etudiants>
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S6</name>
+		  <etudiants>
+      <etudiant cin="CO13" cne="M203">
+	  <nom>Hida</nom>
+	  <prenom>Hasnae</prenom>
+
+	  <age>25</age>
+	  
+	  </etudiant>
+<etudiant cin="CO14" cne="M204">
+	  <nom>Hassani</nom>
+	  <prenom>Fatim zahrae</prenom>
+
+	  <age>23</age>
+		 </etudiant>
+		 <etudiant cin="CO15" cne="M205">
+	  <nom>Aghnima</nom>
+	  <prenom>Abdelali</prenom>
+
+	  <age>22</age>
+	  </etudiant>
+	  <etudiant cin="CO16" cne="M206">
+	  <nom>Ajiyel</nom>
+	  <prenom>Ali</prenom>
+
+	  <age>21</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+		 </semestres>
+
+
+
+
+    </branch>
+    <branch>
+        <name>SMA</name>
+
+
+         <semestres>
+<semestre>
+
+		 <name>S1</name>
+		 <etudiants>
+      <etudiant cin="A11" cne="O13">
+	  <nom>Douzi</nom>
+	  <prenom>Yahya</prenom>
+
+	  <age>24</age>
+	  
+	  </etudiant>
+<etudiant cin="A22" cne="O14">
+	  <nom>Beghdady</nom>
+	  <prenom>Baker</prenom>
+
+	  <age>21</age>
+		 </etudiant>
+		 <etudiant cin="A33" cne="O15">
+	  <nom>Sabri</nom>
+	  <prenom>Abdelah</prenom>
+
+	  <age>22</age>
+	  </etudiant>
+	  <etudiant cin="A44" cne="O16">
+	  <nom>Elghoul</nom>
+	  <prenom>Abdesalam</prenom>
+
+	  <age>23</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S2</name>
+		  <etudiants>
+      <etudiant cin="A55" cne="O17">
+	  <nom>Hatim</nom>
+	  <prenom>Oumaima</prenom>
+
+	  <age>22</age>
+	  
+	  </etudiant>
+<etudiant cin="A66" cne="O112">
+	  <nom>Kherbawi</nom>
+	  <prenom>Bouchra</prenom>
+
+	  <age>20</age>
+		 </etudiant>
+		 <etudiant cin="A77" cne="O18">
+	  <nom>Falah</nom>
+	  <prenom>Mouna</prenom>
+
+	  <age>21</age>
+	  </etudiant>
+	  <etudiant cin="A88" cne="O19">
+	  <nom>Seddiki</nom>
+	  <prenom>Ayoub</prenom>
+
+	  <age>20</age>
+	  </etudiant>
+	  </etudiants>
+
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S3</name>
+		  <etudiants>
+      <etudiant cin="A99" cne="O20">
+	  <nom>Mouhib</nom>
+	  <prenom>Ali</prenom>
+
+	  <age>23</age>
+	  
+	  </etudiant>
+<etudiant cin="A01" cne="O21">
+	  <nom>Amghar</nom>
+	  <prenom>Soukaina</prenom>
+
+	  <age>22</age>
+		 </etudiant>
+		 <etudiant cin="A02" cne="O22">
+	  <nom>Amavi</nom>
+	  <prenom>Samir</prenom>
+
+	  <age>24</age>
+	  </etudiant>
+	  <etudiant cin="A03" cne="O23">
+	  <nom>Taoussi</nom>
+	  <prenom>Achraf</prenom>
+
+	  <age>25</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S4</name>
+		  <etudiants>
+      <etudiant cin="A04" cne="O24">
+	  <nom>maalam</nom>
+	  <prenom>Asmae</prenom>
+
+	  <age>22</age>
+	  
+	  </etudiant>
+<etudiant cin="A05" cne="O25">
+	  <nom>Aajouri</nom>
+	  <prenom>Ayoub</prenom>
+
+	  <age>23</age>
+		 </etudiant>
+		 <etudiant cin="A06" cne="O26">
+	  <nom>Taoufik</nom>
+	  <prenom>Badr</prenom>
+
+	  <age>22</age>
+	  </etudiant>
+	  <etudiant cin="A07" cne="O27">
+	  <nom>Belhaj</nom>
+	  <prenom>Mehdi</prenom>
+
+	  <age>26</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+
+<semestre>
+
+		 <name>S5</name>
+		  <etudiants>
+      <etudiant cin="A08" cne="O28">
+	  <nom>Alaoui</nom>
+	  <prenom>Chaimae</prenom>
+
+	  <age>21</age>
+	  
+	  </etudiant>
+<etudiant cin="A09" cne="O29">
+	  <nom>Dabaghi</nom>
+	  <prenom>Hamza</prenom>
+
+	  <age>23</age>
+		 </etudiant>
+		 <etudiant cin="E11" cne="O201">
+	  <nom>Bouzouma</nom>
+	  <prenom>Dalila</prenom>
+
+	  <age>23</age>
+	  </etudiant>
+	  <etudiant cin="E12" cne="O202">
+	  <nom>Kaddari</nom>
+	  <prenom>Fatiha</prenom>
+
+	  <age>30</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S6</name>
+		  <etudiants>
+      <etudiant cin="E13" cne="O203">
+	  <nom>Moussawi</nom>
+	  <prenom>Fatiha</prenom>
+
+	  <age>31</age>
+	  
+	  </etudiant>
+     <etudiant cin="E14" cne="O204">
+	  <nom>Boudiar</nom>
+	  <prenom>Tarik</prenom>
+
+	  <age>27</age>
+		 </etudiant>
+		 <etudiant cin="E15" cne="O205">
+	  <nom>Bekkari</nom>
+	  <prenom>Salim</prenom>
+
+	  <age>22</age>
+	  </etudiant>
+	  <etudiant cin="E16" cne="O206">
+	  <nom>Mane</nom>
+	  <prenom>Adnan</prenom>
+
+	  <age>21</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+		 </semestres>       
+    </branch>
+
+    <branch>
+        <name>SMP</name>
+
+
+<semestres>
+<semestre>
+
+		 <name>S1</name>
+		 <etudiants>
+      <etudiant cin="K11" cne="M131">
+	  <nom>Berraho</nom>
+	  <prenom>Hamza</prenom>
+
+	  <age>21</age>
+	  
+	  </etudiant>
+     <etudiant cin="K22" cne="M141">
+	  <nom>Bahij</nom>
+	  <prenom>Soumaya</prenom>
+
+	  <age>20</age>
+		 </etudiant>
+		 <etudiant cin="K33" cne="M151">
+	  <nom>Mahboub</nom>
+	  <prenom>Abdelali</prenom>
+
+	  <age></age>
+	  </etudiant>
+	  <etudiant cin="K44" cne="M161">
+	  <nom>Hatoch</nom>
+	  <prenom>Hamza</prenom>
+
+	  <age>22</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S2</name>
+		  <etudiants>
+      <etudiant cin="K55" cne="M171">
+	  <nom>Eljabiry</nom>
+	  <prenom>Ihssan</prenom>
+
+	  <age>20</age>
+	  
+	  </etudiant>
+<etudiant cin="K66" cne="172">
+	  <nom>Barrouj</nom>
+	  <prenom>Ayah</prenom>
+
+	  <age>23</age>
+		 </etudiant>
+		 <etudiant cin="K77" cne="M181">
+	  <nom>Boudouaya</nom>
+	  <prenom>Oumaima</prenom>
+
+	  <age>21</age>
+	  </etudiant>
+	  <etudiant cin="K88" cne="M191">
+	  <nom>Chahboune</nom>
+	  <prenom>Khalid</prenom>
+
+	  <age>23</age>
+	  </etudiant>
+	  </etudiants>
+
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S3</name>
+		  <etudiants>
+      <etudiant cin="K99" cne="M201">
+	  <nom>Elmalawi</nom>
+	  <prenom>Amina</prenom>
+
+	  <age>22</age>
+	  
+	  </etudiant>
+      <etudiant cin="K01" cne="M211">
+	  <nom>Bahij</nom>
+	  <prenom>Ahlam</prenom>
+
+	  <age>23</age>
+		 </etudiant>
+		 <etudiant cin="K02" cne="M221">
+	  <nom>Zih</nom>
+	  <prenom>Kaoutar</prenom>
+
+	  <age>24</age>
+	  </etudiant>
+	  <etudiant cin="K03" cne="M231">
+	  <nom>Kadderi</nom>
+	  <prenom>Nasser</prenom>
+
+	  <age>27</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S4</name>
+		  <etudiants>
+      <etudiant cin="K04" cne="M241">
+	  <nom>Jorio</nom>
+	  <prenom>Mohamed</prenom>
+
+	  <age>25</age>
+	  
+	  </etudiant>
+<etudiant cin="K05" cne="M251">
+	  <nom>Bekkari</nom>
+	  <prenom>Hisham</prenom>
+
+	  <age>22</age>
+		 </etudiant>
+		 <etudiant cin="K06" cne="M261">
+	  <nom>Bahlouli</nom>
+	  <prenom>Soufian</prenom>
+
+	  <age>23</age>
+	  </etudiant>
+	  <etudiant cin="K07" cne="M271">
+	  <nom>Hamoutahar</nom>
+	  <prenom>Meryem</prenom>
+
+	  <age>22</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+
+<semestre>
+
+		 <name>S5</name>
+		  <etudiants>
+      <etudiant cin="K08" cne="M281">
+	  <nom>Bennani</nom>
+	  <prenom>Nada</prenom>
+
+	  <age>21</age>
+	  
+	  </etudiant>
+    <etudiant cin="K09" cne="M291">
+	  <nom>Azimani</nom>
+	  <prenom>Mohamed</prenom>
+
+	  <age>22</age>
+		 </etudiant>
+		 <etudiant cin="LM11" cne="M2012">
+	  <nom>Khannous</nom>
+	  <prenom>Zineb</prenom>
+
+	  <age>24</age>
+	  </etudiant>
+	  <etudiant cin="LM12" cne="M2022">
+	  <nom>EL brahimi</nom>
+	  <prenom>Oumayma</prenom>
+
+	  <age>24</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+<semestre>
+
+		 <name>S6</name>
+		  <etudiants>
+      <etudiant cin="LM13" cne="M2032">
+	  <nom>Hida</nom>
+	  <prenom>Hasnae</prenom>
+
+	  <age>25</age>
+	  
+	  </etudiant>
+<etudiant cin="LM14" cne="M2042">
+	  <nom>Hassani</nom>
+	  <prenom>Fatim zahrae</prenom>
+
+	  <age>23</age>
+		 </etudiant>
+		 <etudiant cin="LM15" cne="M2052">
+	  <nom>Aghnima</nom>
+	  <prenom>Abdelali</prenom>
+
+	  <age>22</age>
+	  </etudiant>
+	  <etudiant cin="LM16" cne="M2062">
+	  <nom>Ajiyel</nom>
+	  <prenom>Ali</prenom>
+
+	  <age>21</age>
+	  </etudiant>
+	  </etudiants>
+		 
+</semestre>
+
+		 </semestres>
+       
+    </branch>
+
+</branches>

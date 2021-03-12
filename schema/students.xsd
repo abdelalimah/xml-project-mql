@@ -1,0 +1,43 @@
+?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="name" type="xsd:string"/>
+<xsd:element name="nickname" type="xsd:string"/>
+<xsd:element name="age" type="ageType"/>
+<xsd:element name="image" type="imageType"/>
+<xds:element name="student" type="studentType"/>
+
+
+<xsd:complexeType name="imageType">
+<xsd:attribute name="src" use="required" type="xsd:string"/>
+</xsd:complexeType>
+
+
+<xsd:simpleType name="ageType">
+<xsd:restriction base="xsd:integer">
+<xsd:minExclusive value="18"/>
+<xsd:maxExclusive value="40"/>
+</xsd:restriction>
+</xsd:simpleType>
+
+
+
+<xsd:complexeType name="studentType">
+<xsd:sequence>
+
+<xsd:element ref="name"/>
+<xsd:element ref="nickname"/>
+<xsd:element ref="age"/>
+<xsd:element ref="image"/>
+
+</xsd:sequence>
+</xsd:complexeType>
+<xsd:complexeType name="students">
+<xsd:sequence>
+<xsd:element ref="student" minOccurs="1" maxOccurs="unbounded"/>
+
+</xsd:complexeType>
+
+
+
+</xsd:schema>

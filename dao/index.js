@@ -29,13 +29,11 @@ module.exports = {
         })
     },
     addStudent(student,cb){
-        let isStudentAdded = false;
         fs.readFile(basePath,function(err,data){
             if(!err){
                 const {root,document} = getDocumentElement(data);
-                addStudent(student,root,document);
-                isStudentAdded = true;
-                cb(document,isStudentAdded);
+                let isStudentExist = addStudent(student,root,document);
+                cb(document,isStudentExist);
             }
         })
     },

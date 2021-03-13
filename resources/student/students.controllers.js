@@ -31,16 +31,21 @@ module.exports = {
     const nickname = req.body.nickname;
     const age = req.body.age;
 
+    if(!cne || !cin || !nickname || !name || !age){
+      res.status(400).send("Invalid input");
+      return;
+    }
+
     addStudent(
       new Student(cne, cin, name, nickname, age),
-      function (newDocument,isStudentAdded) {
+      function (newDocument,isStudentExist) {
         writeToFile(basePath, newDocument);
 
-        if(isStudentAdded){
+        if(!isStudentExist){
           res.status(200).send("XML file updated successfuly");
           return;
         }
-        res.status(400).send("There was an error while adding the student");
+        res.status(400).send("Student with thid CNE already exist");
       }
     );
   },
@@ -49,7 +54,7 @@ module.exports = {
     deleteStudent(cne, function (newDocument,isStudentDeleted) {
       writeToFile(basePath, newDocument);
       if(isStudentDeleted){
-        res.status(200).sendFile(basePath);
+        res.sendFile(path.resolve("db","students.xml"));
         return;
       }
       res.status(404).send("There was an error while deleting the student");

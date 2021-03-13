@@ -2,26 +2,11 @@
 <?xml-stylesheet href="/students.xsl" type="text/xsl"?>
 <!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schema/students.xsd" -->
 <students>
-    <student cne="FL9999" cin="DO55009">
-        <name>Mahboub</name>
-        <nickname>Abdelali</nickname>
-        <age>21</age>
-        <image src="abdo.jpg"/>
-    </student>
     
-    <student cne="SQ1004" cin="PO55009">
-        <name>Hatoch</name>
-        <nickname>Hamza</nickname>
-        <age>22</age>
-        <image src="abdo.jpg"/>
-    </student>
+    
+    
 
-<student cne="AZ4857" cin="PO55001">
-        <name>Khmisse</name>
-        <nickname>Abdessamad</nickname>
-        <age>21</age>
-        <image src="abdo.jpg"/>
-    </student>
+
     <student cne="HJ4009" cin="PO55000">
         <name>Jarid</name>
         <nickname>Chaimae</nickname>

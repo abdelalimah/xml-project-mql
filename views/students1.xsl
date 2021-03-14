@@ -32,32 +32,58 @@
         
         
         </head>
-
-
-        <script>
-              function deleteStudent(cne){
-                  fetch(`http://localhost:3000/students/${cne}`,{
-                      method: 'DELETE'
-                  }).then(() => location.reload());
-              }
-          </script>
         <body>
-
-
-<form class="navbar-form navbar-left" action="index.php" method="POST">
-                <div class="form-group">
-                  <input type="text" name="recherche" class="form-control" style="color: black;background-color:#EFEFEF; border: 1px #DC4C46 solid;" placeholder="Rechercher un étudiant"/>
-                </div>
-                <button type="submit"  style="color:#EFEFEF;background-color:#DC4C46; border:none;" class="btn btn-default">Rechercher</button>
-             
-        <!-- Button trigger modal -->
-        <div class="card-header">
-                
-                
+            
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
           Ajouter
         </button>
-</div>
+
+          <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ajouter un étudiant</h5>
+
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"></span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <form class="container-fluid">
+                  <div class="row">
+                    <div class="col">
+                      <label for="exampleInputEmail1">CNE</label>
+                      <input id="cne" type="text" class="form-control" />
+                    </div>
+                    <div class="col">
+                      <label for="exampleInputEmail1">CIN</label>
+                      <input id="cin" type="text" class="form-control" />
+                    </div>
+                    <div class="col">
+                      <label for="exampleInputEmail1">Nom</label>
+                      <input id="name" type="text" class="form-control" />
+                    </div>
+                    <div class="col">
+                      <label for="exampleInputEmail1">Prénom</label>
+                      <input id="nickname" type="text" class="form-control" />
+                    </div>
+                    <label for="exampleInputEmail1">Age</label>
+                    <input type="number" id="age" name="tentacles" min="18" max="40" />
+
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                <button type="button" class="btn btn-primary" onclick="addStudent()">Ajouter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
               <div class="card mb-3">
             <div class="card-header">
@@ -77,17 +103,7 @@
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tfoot>
-                            <tr>
-                                <th>CNE</th>
-                              <th>CIN</th>
-                                <th>Nom</th>
-                                <th>Prénom</th>
-                                <th>Age</th>
-                                
-                                <th>Action</th>
-                            </tr>
-                        </tfoot>
+                        
                         <tbody>
                             <xsl:for-each select="/students/student">
                                 <tr>
@@ -105,12 +121,56 @@
                                     </td>
                                     <td>
                                         <xsl:value-of select="age"/>
-                                    </td>
+                                    </td>           
                                     <td>
 
-                                        <a class="btn btn-secondary" onclick="deleteStudent('{@cne}')" >Supprimer</a>    
-                                        
-                                    </td>
+                                      <a href="#" class="btn btn-primary" onclick="deleteStudent('{@cne}')">Supprimer</a>
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                                        Modifier
+                                      </button>
+                              
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel2">Modifier un étudiant</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"></span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                              <form class="container-fluid">
+                                                <div class="row">
+                                                  <div class="col">
+                                                    <label for="exampleInputEmail1">CNE</label>
+                                                    <input id="cne1" type="text" class="form-control" value="{@cne}" />
+                                                  </div>
+                                                  <div class="col">
+                                                    <label for="exampleInputEmail1">CIN</label>
+                                                    <input id="cin1" type="text" class="form-control" value="{@cin}" />
+                                                  </div>
+                                                  <div class="col">
+                                                    <label for="exampleInputEmail1">Nom</label>
+                                                    <input id="name1" type="text" class="form-control" value="{name}" />
+                                                  </div>
+                                                  <div class="col">
+                                                    <label for="exampleInputEmail1">Prénom</label>
+                                                    <input id="nickname1" type="text" class="form-control" value="{nickname}" />
+                                                  </div>
+                                                  <label for="exampleInputEmail1">Age</label>
+                                                  <input type="number" id="age1" name="tentacles" min="18" max="40" value="{age}"/>
+                                                </div>
+                                              </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                              <button type="button" class="btn btn-primary" onclick="updateStudent()">Enregistrer</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>    
+                                  </td>
                                 </tr>
                             </xsl:for-each>
                         </tbody>
@@ -118,8 +178,69 @@
                 </div>
             </div>
         </div>
-    </form>
+    
         </body>
+        <script>
+
+          <!-- making cin and cne readonly for modification -->
+              document.getElementById("cne1").readOnly = true;
+              document.getElementById("cin1").readOnly = true;
+  
+              function deleteStudent(cne){
+                  let isConfirmed = confirm("Voulez vous vraiment supprimer l'étudiant CNE : "+cne);
+                  if(isConfirmed){
+                    fetch(`/students/${cne}`,{
+                      method: 'DELETE'
+                    }).then((res) => location.reload());
+                  }
+              }
+  
+              function addStudent(){
+                let cne = document.getElementById("cne").value;
+                let cin = document.getElementById("cin").value;
+                let name = document.getElementById("name").value;
+                let nickname = document.getElementById("nickname").value;
+                let age = document.getElementById("age").value;
+                
+                fetch('/students', {
+                  method: 'POST',
+                  headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                  },
+                  body: JSON.stringify({cne,cin,name,nickname,age})
+                }).then(function(){ 
+                  location.reload();
+                 });
+              }
+  
+              function updateStudent(){
+  
+                let cne = document.getElementById("cne1").value;
+                let cin = document.getElementById("cin1").value;
+                let name = document.getElementById("name1").value;
+                let nickname = document.getElementById("nickname1").value;
+                let age = document.getElementById("age1").value;
+  
+                fetch(`/students/${cne}`, {
+                  method: 'PUT',
+                  headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                  },
+                  body: JSON.stringify({cne,cin,name,nickname,age})
+                }).then(function(){ 
+                  location.reload();
+                 });
+  
+              }
+  
+          </script>
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+      <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
         </html>
     </xsl:template>
 </xsl:stylesheet> 

@@ -1,6 +1,6 @@
 # Ce projet rentre dans le cadre du module XML pour MQL M1
 
-## Projet réliser par Bahij Soumaya et Mahboub Abdelali
+## Projet rélaiser par Bahij Soumaya et Mahboub Abdelali
 
 
 Pour tester le projet veuillez executer les commandes suivantes (Vous devez avoir NodeJS installer sur votre machine) :

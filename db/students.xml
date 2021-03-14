@@ -7,9 +7,9 @@
 
     
     
-    <student cne="LK0003" cin="NL12056"><name>Azimani</name><nickname>Mohamed</nickname><age>21</age></student>
+    <student cne="LK0003" cin="NL12056"><name>Azimani</name><nickname>Hassan</nickname><age>21</age></student>
 
-<student cne="FL3456" cin="LM9999"><name>abdelali</name><nickname>mahboub</nickname><age>22</age></student><student cne="H144059046" cin="FL94895"><name>mahboub</name><nickname>abdelali</nickname><age>21</age></student></students>
+<student cne="H144059046" cin="FL94895"><name>mahboub</name><nickname>Abbas</nickname><age>21</age></student></students>
 
 
 <!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schema/students.xsd" -->

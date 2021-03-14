@@ -132,22 +132,22 @@
                                 <div class="row">
                                   <div class="col">
                                     <label for="exampleInputEmail1">CNE</label>
-                                    <input id="cne1" type="text" class="form-control" value="{@cne}" />
+                                    <input id="cne1" type="text" class="form-control" />
                                   </div>
                                   <div class="col">
                                     <label for="exampleInputEmail1">CIN</label>
-                                    <input id="cin1" type="text" class="form-control" value="{@cin}" />
+                                    <input id="cin1" type="text" class="form-control"  />
                                   </div>
                                   <div class="col">
                                     <label for="exampleInputEmail1">Nom</label>
-                                    <input id="name1" type="text" class="form-control" value="{name}" />
+                                    <input id="name1" type="text" class="form-control"  />
                                   </div>
                                   <div class="col">
                                     <label for="exampleInputEmail1">Prénom</label>
-                                    <input id="nickname1" type="text" class="form-control" value="{nickname}" />
+                                    <input id="nickname1" type="text" class="form-control"  />
                                   </div>
                                   <label for="exampleInputEmail1">Age</label>
-                                  <input type="number" id="age1" name="tentacles" min="18" max="40" value="{age}"/>
+                                  <input type="number" id="age1" name="tentacles" min="18" max="40" />
                                 </div>
                               </form>
                             </div>
